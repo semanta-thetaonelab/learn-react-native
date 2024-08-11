@@ -35,8 +35,8 @@ const users=[
 ];
 
 {/*diffrence between map and FlatList, FaltList is optimized for handel huge data on ScrollView and help to run low and device for 
-   run smoothly
- */}
+   lag free and smooth scroll
+*/}
 if (props.method==="FlatList"){
     return(
         <View>

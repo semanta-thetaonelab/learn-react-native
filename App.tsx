@@ -3,22 +3,14 @@ import React, { useState } from 'react';
 import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
 import NewSyle from './glopbalStyle'
 import List from './Conponents/List';
-const style=StyleSheet.create({
-  textStyle:{
-    color:'#7970cf',
-    fontSize:20,
-    fontWeight:'bold'
-    
-  }
-})
+import Grid from './Conponents/Grid';
+import SelectionLists from './Conponents/SectionLists';
 
 
 const App=(): React.JSX.Element=> {
   return (
     <View style={{padding:5,height:'100%'}}>
-      <List
-       method={'Map'}
-      />
+      <SelectionLists />
     </View>
   );
 }
